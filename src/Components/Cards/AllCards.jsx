@@ -11,7 +11,7 @@ const AllCards = ({ card }) => {
             className="btn justify-start w-28 text-white"
             style={{ backgroundColor: button.backgroundColor }}
           >
-            BTn
+            
           </button>
           <p>If a dog chews shoes whose shoes does he choose?</p>
         </div>

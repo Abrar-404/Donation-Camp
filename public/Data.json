@@ -2,9 +2,11 @@
   {
     "id": 1,
     "image": "https://i.ibb.co/HH7cnTp/Health.png",
+    "price": 290,
+    "description": "Maintaining good health is paramount as it forms the foundation for a fulfilling and active life. When we prioritize our health, we are better equipped to pursue our passions and dreams with vitality. Health influences not only our physical well-being but also our mental and emotional states, contributing to a balanced and harmonious existence. It fosters resilience, enabling us to better cope with life's challenges and uncertainties. Ultimately, health is a priceless asset that allows us to savor the precious moments and experiences that life has to offer.",
     "button": {
       "text": "Health",
-      "text_color": "white",
+      "text_color": "blue",
       "backgroundColor": "#FF5733"
     },
     "title": {
@@ -17,8 +19,11 @@
   {
     "id": 2,
     "image": "https://i.ibb.co/5R8MzBD/Education.png",
+    "price": 290,
+    "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
     "button": {
       "text": "Health",
+      "text_color": "red",
       "backgroundColor": "#FFA500"
     },
     "title": {
@@ -31,8 +36,11 @@
   {
     "id": 3,
     "image": "https://i.ibb.co/BtPTnNb/Clothing.png",
+    "price": 290,
+    "description": "Clothes play a vital role in expressing our individuality and personality, allowing us to showcase our unique style and preferences. They serve as a powerful means of non-verbal communication, conveying messages about our social status, cultural identity, and personal values. Beyond aesthetics, clothes provide essential protection from the elements, safeguarding us from harsh weather conditions and environmental hazards. Moreover, they can boost our confidence and self-esteem, influencing how we perceive ourselves and how others perceive us. Ultimately, clothing choices can profoundly impact our daily lives, serving as a form of self-expression and protection while shaping our interactions with the world.",
     "button": {
       "text": "Health",
+      "text_color": "yellow",
       "backgroundColor": "#008000"
     },
     "title": {
@@ -45,8 +53,11 @@
   {
     "id": 4,
     "image": "https://i.ibb.co/rGqH7gL/Food.png",
+    "price": 290,
+    "description": "Food is essential for our survival, providing the necessary nutrients and energy our bodies need to function properly. Beyond sustenance, food plays a crucial role in cultural and social contexts, bringing people together and fostering bonds through shared meals. It also influences our physical and mental health, affecting our mood, cognition, and overall well-being. The choices we make regarding food can have a profound impact on our long-term health, making it vital to make informed decisions about our diets. Ultimately, food is a fundamental part of our lives, influencing our daily experiences and contributing to our overall quality of life.",
     "button": {
       "text": "Health",
+      "text_color": "green",
       "backgroundColor": "#4B0082"
     },
     "title": {
@@ -59,8 +70,11 @@
   {
     "id": 5,
     "image": "https://i.ibb.co/BtPTnNb/Clothing.png",
+    "description": "Clothes play a vital role in expressing our individuality and personality, allowing us to showcase our unique style and preferences. They serve as a powerful means of non-verbal communication, conveying messages about our social status, cultural identity, and personal values. Beyond aesthetics, clothes provide essential protection from the elements, safeguarding us from harsh weather conditions and environmental hazards. Moreover, they can boost our confidence and self-esteem, influencing how we perceive ourselves and how others perceive us. Ultimately, clothing choices can profoundly impact our daily lives, serving as a form of self-expression and protection while shaping our interactions with the world.",
+    "price": 290,
     "button": {
       "text": "Health",
+      "text_color": "red",
       "backgroundColor": "#FF4500"
     },
     "title": {
@@ -73,8 +87,11 @@
   {
     "id": 6,
     "image": "https://i.ibb.co/5R8MzBD/Education.png",
+    "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+    "price": 290,
     "button": {
       "text": "Health",
+      "text_color": "gray",
       "backgroundColor": "#800080"
     },
     "title": {
@@ -87,8 +104,11 @@
   {
     "id": 7,
     "image": "https://i.ibb.co/HH7cnTp/Health.png",
+    "description": "Maintaining good health is paramount as it forms the foundation for a fulfilling and active life. When we prioritize our health, we are better equipped to pursue our passions and dreams with vitality. Health influences not only our physical well-being but also our mental and emotional states, contributing to a balanced and harmonious existence. It fosters resilience, enabling us to better cope with life's challenges and uncertainties. Ultimately, health is a priceless asset that allows us to savor the precious moments and experiences that life has to offer.",
+    "price": 290,
     "button": {
       "text": "Health",
+      "text_color": "red",
       "backgroundColor": "#1E90FF"
     },
     "title": {
@@ -101,8 +121,11 @@
   {
     "id": 8,
     "image": "https://i.ibb.co/HH7cnTp/Health.png",
+    "description": "Maintaining good health is paramount as it forms the foundation for a fulfilling and active life. When we prioritize our health, we are better equipped to pursue our passions and dreams with vitality. Health influences not only our physical well-being but also our mental and emotional states, contributing to a balanced and harmonious existence. It fosters resilience, enabling us to better cope with life's challenges and uncertainties. Ultimately, health is a priceless asset that allows us to savor the precious moments and experiences that life has to offer.",
+    "price": 290,
     "button": {
       "text": "Health",
+      "text_color": "blue",
       "backgroundColor": "#00FF00"
     },
     "title": {
@@ -115,8 +138,11 @@
   {
     "id": 9,
     "image": "https://i.ibb.co/5R8MzBD/Education.png",
+    "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+    "price": 290,
     "button": {
       "text": "Health",
+      "text_color": "blue",
       "backgroundColor": "#2E8B57"
     },
     "title": {
@@ -129,8 +155,11 @@
   {
     "id": 10,
     "image": "https://i.ibb.co/BtPTnNb/Clothing.png",
+    "description": "Clothes play a vital role in expressing our individuality and personality, allowing us to showcase our unique style and preferences. They serve as a powerful means of non-verbal communication, conveying messages about our social status, cultural identity, and personal values. Beyond aesthetics, clothes provide essential protection from the elements, safeguarding us from harsh weather conditions and environmental hazards. Moreover, they can boost our confidence and self-esteem, influencing how we perceive ourselves and how others perceive us. Ultimately, clothing choices can profoundly impact our daily lives, serving as a form of self-expression and protection while shaping our interactions with the world.",
+    "price": 290,
     "button": {
       "text": "Health",
+      "text_color": "blue",
       "backgroundColor": "#FFD700"
     },
     "title": {
@@ -143,8 +172,11 @@
   {
     "id": 11,
     "image": "https://i.ibb.co/rGqH7gL/Food.png",
+    "description": "Food is essential for our survival, providing the necessary nutrients and energy our bodies need to function properly. Beyond sustenance, food plays a crucial role in cultural and social contexts, bringing people together and fostering bonds through shared meals. It also influences our physical and mental health, affecting our mood, cognition, and overall well-being. The choices we make regarding food can have a profound impact on our long-term health, making it vital to make informed decisions about our diets. Ultimately, food is a fundamental part of our lives, influencing our daily experiences and contributing to our overall quality of life.",
+    "price": 290,
     "button": {
       "text": "Health",
+      "text_color": "blue",
       "backgroundColor": "#8A2BE2"
     },
     "title": {
@@ -157,8 +189,11 @@
   {
     "id": 12,
     "image": "https://i.ibb.co/rGqH7gL/Food.png",
+    "description": "Food is essential for our survival, providing the necessary nutrients and energy our bodies need to function properly. Beyond sustenance, food plays a crucial role in cultural and social contexts, bringing people together and fostering bonds through shared meals. It also influences our physical and mental health, affecting our mood, cognition, and overall well-being. The choices we make regarding food can have a profound impact on our long-term health, making it vital to make informed decisions about our diets. Ultimately, food is a fundamental part of our lives, influencing our daily experiences and contributing to our overall quality of life.",
+    "price": 290,
     "button": {
       "text": "Health",
+      "text_color": "blue",
       "backgroundColor": "#FF6347"
     },
     "title": {

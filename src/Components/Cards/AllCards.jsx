@@ -1,25 +1,30 @@
 import { Link } from 'react-router-dom';
 
 const AllCards = ({ card }) => {
-  const { id, image, button, title } = card || {};
+  const { id, image, button, title, backgroundColor } = card || {};
 
   return (
     <Link to={`/cardDetails/${id}`}>
-      <div>
-        <div className="card card-compact bg-base-100 shadow-xl">
+      <div className="">
+        <div className="card card-compact shadow-xl">
           <figure>
             <img src={image} />
           </figure>
-          <div className="card-body">
+          <div
+            className="card-body"
+            style={{ backgroundColor: backgroundColor }}
+          >
             <div>
               <button
-                // style={{ backgroundColor: button.backgroundColor }}
+                style={{ backgroundColor: button.backgroundColor }}
                 className="btn justify-start w-28 text-white"
               >
-                {/* <span style={{ font: button.text_color }}>Button</span> */}
+                <span style={{ font: button.text_color }}>Button</span>
               </button>
             </div>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <p className="text-primary" style={{ color: button.text_color }}>
+              If a dog chews shoes whose shoes does he choose?
+            </p>
           </div>
         </div>
       </div>

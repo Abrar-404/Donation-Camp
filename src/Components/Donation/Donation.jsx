@@ -1,34 +1,62 @@
-// import { useEffect, useState } from 'react';
-// import CardDetails from '../Cards/CardDetails';
+import { useState, useEffect } from 'react';
+import DonationCard from './DonationCard';
 
 const Donation = () => {
-  // const [donationDetails, setDonationDetails] = useState([]);
-  // const [empty, setEmpty] = useState(false);
+  const [donation, setDonationData] = useState([]);
 
-  // useEffect(() => {
-  //   const cardDetailsHere = JSON.parse(
-  //     localStorage.getItem('details of cards')
-  //   );
-  //   if (cardDetailsHere) {
-  //     setDonationDetails(cardDetailsHere);
-  //   } else {
-  //     setEmpty('No donation yet');
-  //   }
-  // }, []);
+  const [noDataFound, setNoDataFound] = useState(false);
 
-  // console.log(donationDetails);
+  const [showAll, setShowAll] = useState(false);
+
+  const [donationTotal, setDonationTotal] = useState(0);
+
+  useEffect(() => {
+    const AllDonation = JSON.parse(localStorage.getItem('donation'));
+
+    if (AllDonation) {
+      setDonationData(AllDonation);
+
+      const totalDonation = AllDonation.reduce(
+        (preValue, currentItem) => preValue + currentItem.price,
+        0
+      );
+
+      setDonationTotal(totalDonation);
+    } else {
+      setNoDataFound('No data found');
+    }
+  }, []);
 
   return (
     <div>
-      {/* {empty ? (
-        <p>{empty}</p>
+      {noDataFound ? (
+        <p className="h-[80vh] flex justify-center items-center">
+          {noDataFound}
+        </p>
       ) : (
         <div>
-          {donationDetails?.map(card => (
-            <CardDetails key={card.id} card={card}></CardDetails>
-          ))}
+          <div className="grid grid-cols-2 gap-5">
+            {showAll
+              ? donation?.map(card => (
+                  <DonationCard key={card.id} card={card}></DonationCard>
+                ))
+              : donation
+                  .slice(0, 4)
+                  .map(card => (
+                    <DonationCard key={card.id} card={card}></DonationCard>
+                  ))}
+          </div>
+
+          {donation.length > 4 && (
+            <button
+              onClick={() => setShowAll(!showAll)}
+              className="px-5 bg-green-200 block mx-auto"
+            >
+              {showAll ? 'See less' : 'See more'}
+            </button>
+          )}
         </div>
-      )} */}
+      )}
     </div>
   );
 };

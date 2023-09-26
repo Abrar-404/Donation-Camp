@@ -4,11 +4,13 @@ import Donation from '../Components/Donation/Donation';
 import Home from '../Components/Home/Home';
 import MainLayout from '../Components/Layouts/MainLayout';
 import Statistics from '../Components/Statistics/Statistics';
+import ErrorElements from './../Components/ErrorElements/ErrorElements';
 
 const myCreatedRouter = createBrowserRouter([
   {
     path: '/',
     element: <MainLayout></MainLayout>,
+    errorElement: <ErrorElements></ErrorElements>,
     children: [
       {
         path: '/',

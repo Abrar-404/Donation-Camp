@@ -110,23 +110,23 @@
   {
     "id": 6,
     "image": "https://i.ibb.co/BtPTnNb/Clothing.png",
+    "price": 290,
     "title": "Clothing",
     "category": "Used Clothing Drive",
-    "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+    "allCardColor": {
+      "card_bg": "#79c23f26",
+      "button_bg": "#79c23f38",
+      "text_color": "#79C23F",
+      "button_background": "#79c23f"
+    },
+    "description": "Clothes play a vital role in expressing our individuality and personality, allowing us to showcase our unique style and preferences. They serve as a powerful means of non-verbal communication, conveying messages about our social status, cultural identity, and personal values. Beyond aesthetics, clothes provide essential protection from the elements, safeguarding us from harsh weather conditions and environmental hazards. Moreover, they can boost our confidence and self-esteem, influencing how we perceive ourselves and how others perceive us. Ultimately, clothing choices can profoundly impact our daily lives, serving as a form of self-expression and protection while shaping our interactions with the world.",
     "button": {
       "text": "Health",
       "text_color": "blue",
       "backgroundColor": "#8A2BE2"
     },
 
-    "backgroundColor": "#E6E6E6",
-    "price": 290,
-    "allCardColor": {
-      "card_bg": "#79c23f26",
-      "button_bg": "#79c23f38",
-      "text_color": "#79C23F",
-      "button_background": "#79c23f"
-    }
+    "backgroundColor": "#E6E6E6"
   },
   {
     "id": 7,
@@ -215,17 +215,16 @@
   {
     "id": 11,
     "image": "https://i.ibb.co/BtPTnNb/Clothing.png",
+    "price": 290,
     "title": "Clothing",
     "category": "Used Clothing Drive",
-    "description": "Food is essential for our survival, providing the necessary nutrients and energy our bodies need to function properly. Beyond sustenance, food plays a crucial role in cultural and social contexts, bringing people together and fostering bonds through shared meals. It also influences our physical and mental health, affecting our mood, cognition, and overall well-being. The choices we make regarding food can have a profound impact on our long-term health, making it vital to make informed decisions about our diets. Ultimately, food is a fundamental part of our lives, influencing our daily experiences and contributing to our overall quality of life.",
-    "price": 290,
     "allCardColor": {
       "card_bg": "#79c23f26",
       "button_bg": "#79c23f38",
       "text_color": "#79C23F",
       "button_background": "#79c23f"
     },
-
+    "description": "Clothes play a vital role in expressing our individuality and personality, allowing us to showcase our unique style and preferences. They serve as a powerful means of non-verbal communication, conveying messages about our social status, cultural identity, and personal values. Beyond aesthetics, clothes provide essential protection from the elements, safeguarding us from harsh weather conditions and environmental hazards. Moreover, they can boost our confidence and self-esteem, influencing how we perceive ourselves and how others perceive us. Ultimately, clothing choices can profoundly impact our daily lives, serving as a form of self-expression and protection while shaping our interactions with the world.",
     "button": {
       "text": "Health",
       "text_color": "blue",

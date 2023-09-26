@@ -17,7 +17,7 @@ const CardDestination = ({ card }) => {
       if (!isExists) {
         addedCardsArray.push(...CardItems, card);
         localStorage.setItem('donation', JSON.stringify(addedCardsArray));
-        swal('Good job!', 'Products added successfully!', 'success');
+        swal('Congratulations!', 'Donation Added!', 'success');
       } else {
         swal('error!', 'no duplicate', 'error');
       }

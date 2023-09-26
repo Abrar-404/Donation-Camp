@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 
 const AllCards = ({ card }) => {
-  const { id, image, button, title, backgroundColor } = card || {};
+  const { id, image, title, allCardColor, category } = card || {};
 
   return (
     <Link to={`/cardDetails/${id}`}>
@@ -12,18 +12,18 @@ const AllCards = ({ card }) => {
           </figure>
           <div
             className="card-body"
-            style={{ backgroundColor: backgroundColor }}
+            style={{ backgroundColor: allCardColor.card_bg }}
           >
             <div>
-              <button
-                style={{ backgroundColor: button.backgroundColor }}
-                className="btn justify-start w-28 text-white"
-              >
-                <span style={{ font: button.text_color }}>Button</span>
+              <button className="btn bg-white justify-start w-28 text-white">
+                <span style={{ color: allCardColor.text_color }}>{title}</span>
               </button>
             </div>
-            <p className="text-primary" style={{ color: button.text_color }}>
-              If a dog chews shoes whose shoes does he choose?
+            <p
+              className="text-primary"
+              style={{ color: allCardColor.text_color }}
+            >
+              {category}
             </p>
           </div>
         </div>

@@ -1,7 +1,7 @@
 import swal from 'sweetalert';
 
 const CardDestination = ({ card }) => {
-  const { id, image, description, price, title } = card || {};
+  const { id, image, allCardColor } = card || {};
 
   const addTheDonationItems = () => {
     const addedCardsArray = [];
@@ -38,13 +38,15 @@ const CardDestination = ({ card }) => {
               onClick={addTheDonationItems}
               className="absolute items-center mx-auto overflow-y-hidden justify-start flex py-5 backdrop-brightness-50 w-full mt-[-92px]"
             >
-              <button className="btn ml-6 mt-[5px]">Donate {price}</button>
+              <button className="btn ml-6 mt-[5px]">Donate </button>
             </div>
           </div>
         </div>
-        {/* <p style={{ title: title.text }}>{title}</p> */}
+        <p className="text-primary">
+          If a dog chews shoes whose shoes does he choose?
+        </p>
         <div className="items-center flex justify-center">
-          <p className="mt-5 font-medium max-w-[855px]">{description}</p>
+          <p className="mt-5 font-medium max-w-[855px]"></p>
         </div>
       </div>
     </>

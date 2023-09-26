@@ -3,12 +3,12 @@ import img2 from '../../Images/Group.jpg';
 const Banner = ({ handleSubmit }) => {
   return (
     <>
-      <div>
+      <div className="mt-20">
         <div className=" shadow-xl justify-center mx-auto">
           <div className="relative">
             <figure>
               <img
-                className=" lg:w-[1400px] lg:h-[600px]"
+                className=" lg:w-[1400px] opacity-20 lg:h-[600px]"
                 src={img2}
                 alt="Shoes"
               />

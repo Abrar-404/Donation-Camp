@@ -1,7 +1,7 @@
 import swal from 'sweetalert';
 
 const CardDestination = ({ card }) => {
-  const { id, image, allCardColor } = card || {};
+  const { id, image, title, description, allCardColor } = card || {};
 
   const addTheDonationItems = () => {
     const addedCardsArray = [];
@@ -26,28 +26,35 @@ const CardDestination = ({ card }) => {
 
   return (
     <>
-      <div className="items-center text-center mx-auto">
-        <div className="items-center flex justify-center mt-10">
-          <div className="relative">
-            <img
-              className="w-[300px] md:w-[600px] lg:w-[800px]"
-              src={image}
-              alt=""
-            />
-            <div
-              onClick={addTheDonationItems}
-              className="absolute items-center mx-auto overflow-y-hidden justify-start flex py-5 backdrop-brightness-50 w-full mt-[-92px]"
+      <div className="items-center flex justify-center mt-10">
+        <div className="relative">
+          <img
+            className="w-full mx-auto md:w-[600px] lg:w-[800px]"
+            src={image}
+            alt=""
+          />
+          <div
+            onClick={addTheDonationItems}
+            className="absolute items-center mx-auto overflow-y-hidden justify-start flex py-5 backdrop-brightness-50 w-full mt-[-92px]"
+          >
+            <button
+              style={{
+                backgroundColor: allCardColor?.button_background,
+              }}
+              className="btn text-white border-none ml-6 mt-[5px]"
             >
-              <button className="btn ml-6 mt-[5px]">Donate </button>
-            </div>
+              Donate{' '}
+            </button>
           </div>
         </div>
-        <p className="text-primary">
-          If a dog chews shoes whose shoes does he choose?
+      </div>
+      <div className="text-start items-center">
+        <p className="lg:ml-[20%] md:ml-[7%] ml-[5%] mt-5 font-semibold text-2xl">
+          {title}
         </p>
-        <div className="items-center flex justify-center">
-          <p className="mt-5 font-medium max-w-[855px]"></p>
-        </div>
+        <p className="lg:ml-[20%] md:ml-[7%] ml-[5%] mt-5 font-normal text-xl">
+          {description}
+        </p>
       </div>
     </>
   );

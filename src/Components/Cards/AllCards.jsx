@@ -5,20 +5,20 @@ const AllCards = ({ card }) => {
 
   return (
     <Link to={`/cardDetails/${id}`}>
-      <div className="">
-        <div className="card card-compact shadow-xl">
+      <div className="m">
+        <div className="card card-compact mx-auto md:max-w-[300px] shadow-xl">
           <figure>
             <img src={image} />
           </figure>
           <div
             className="card-body"
-            style={{ backgroundColor: allCardColor.card_bg }}
+            style={{ backgroundColor: allCardColor?.card_bg }}
           >
             <div>
               <button className="px-2 rounded bg-white justify-start text-white">
                 <span
                   className="font-semibold"
-                  style={{ color: allCardColor.text_color }}
+                  style={{ color: allCardColor?.text_color }}
                 >
                   {title}
                 </span>
@@ -26,7 +26,7 @@ const AllCards = ({ card }) => {
             </div>
             <p
               className="text-primary font-semibold"
-              style={{ color: allCardColor.text_color }}
+              style={{ color: allCardColor?.text_color }}
             >
               {category}
             </p>

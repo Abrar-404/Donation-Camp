@@ -17,7 +17,7 @@ const Home = () => {
 
   useEffect(() => {
     const filtered = cards.filter(item =>
-      item?.button?.text.toLowerCase().includes(searchText.toLowerCase())
+      item?.title?.toLowerCase().includes(searchText.toLowerCase())
     );
     setFilteredItems(filtered);
   }, [cards, searchText]);

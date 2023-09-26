@@ -15,12 +15,17 @@ const AllCards = ({ card }) => {
             style={{ backgroundColor: allCardColor.card_bg }}
           >
             <div>
-              <button className="btn bg-white justify-start w-28 text-white">
-                <span style={{ color: allCardColor.text_color }}>{title}</span>
+              <button className="px-2 rounded bg-white justify-start text-white">
+                <span
+                  className="font-semibold"
+                  style={{ color: allCardColor.text_color }}
+                >
+                  {title}
+                </span>
               </button>
             </div>
             <p
-              className="text-primary"
+              className="text-primary font-semibold"
               style={{ color: allCardColor.text_color }}
             >
               {category}

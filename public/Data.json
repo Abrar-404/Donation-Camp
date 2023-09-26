@@ -2,13 +2,13 @@
   {
     "id": 1,
     "image": "https://i.ibb.co/f8xWSsM/Health.png",
-    "title": "Food",
+    "title": "Health",
     "category": "Clean water for children",
     "price": 290,
     "allCardColor": {
       "card_bg": "#0052ff26",
       "button_bg": "#0052ff26",
-      "text_color": "#0052ffab",
+      "text_color": "#0052FF",
       "button_background": "#79c23f"
     },
     "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
@@ -30,7 +30,7 @@
     "allCardColor": {
       "card_bg": "#ff444a26",
       "button_bg": "#ff444a38",
-      "text_color": "#ff444acc",
+      "text_color": "#FF444A",
       "button_background": "#79c23f"
     },
 
@@ -52,7 +52,7 @@
     "allCardColor": {
       "card_bg": "#79c23f26",
       "button_bg": "#79c23f38",
-      "text_color": "#79c23fd4",
+      "text_color": "#79C23F",
       "button_background": "#79c23f"
     },
     "description": "Clothes play a vital role in expressing our individuality and personality, allowing us to showcase our unique style and preferences. They serve as a powerful means of non-verbal communication, conveying messages about our social status, cultural identity, and personal values. Beyond aesthetics, clothes provide essential protection from the elements, safeguarding us from harsh weather conditions and environmental hazards. Moreover, they can boost our confidence and self-esteem, influencing how we perceive ourselves and how others perceive us. Ultimately, clothing choices can profoundly impact our daily lives, serving as a form of self-expression and protection while shaping our interactions with the world.",
@@ -73,7 +73,7 @@
     "allCardColor": {
       "card_bg": "#f8714726",
       "button_bg": "#f8714730",
-      "text_color": "#f87147a6",
+      "text_color": "#F87147",
       "button_background": "#79c23f"
     },
 
@@ -103,7 +103,7 @@
     "allCardColor": {
       "card_bg": "#f8714726",
       "button_bg": "#f8714730",
-      "text_color": "#f87147a6",
+      "text_color": "#F87147",
       "button_background": "#79c23f"
     }
   },
@@ -124,7 +124,7 @@
     "allCardColor": {
       "card_bg": "#79c23f26",
       "button_bg": "#79c23f38",
-      "text_color": "#79c23fd4",
+      "text_color": "#79C23F",
       "button_background": "#79c23f"
     }
   },
@@ -145,7 +145,7 @@
     "allCardColor": {
       "card_bg": "#ff444a26",
       "button_bg": "#ff444a38",
-      "text_color": "#ff444acc",
+      "text_color": "#FF444A",
       "button_background": "#79c23f"
     }
   },
@@ -166,7 +166,7 @@
     "allCardColor": {
       "card_bg": "#0052ff26",
       "button_bg": "#0052ff26",
-      "text_color": "#0052ffab",
+      "text_color": "#0052FF",
       "button_background": "#79c23f"
     }
   },
@@ -187,7 +187,7 @@
     "allCardColor": {
       "card_bg": "#0052ff26",
       "button_bg": "#0052ff26",
-      "text_color": "#0052ffab",
+      "text_color": "#0052FF",
       "button_background": "#79c23f"
     }
   },
@@ -208,7 +208,7 @@
     "allCardColor": {
       "card_bg": "#ff444a26",
       "button_bg": "#ff444a38",
-      "text_color": "#ff444acc",
+      "text_color": "#FF444A",
       "button_background": "#79c23f"
     }
   },
@@ -222,7 +222,7 @@
     "allCardColor": {
       "card_bg": "#79c23f26",
       "button_bg": "#79c23f38",
-      "text_color": "#79c23fd4",
+      "text_color": "#79C23F",
       "button_background": "#79c23f"
     },
 
@@ -251,7 +251,7 @@
     "allCardColor": {
       "card_bg": "#f8714726",
       "button_bg": "#f8714730",
-      "text_color": "#f87147a6",
+      "text_color": "#F87147",
       "button_background": "#79c23f"
     }
   }

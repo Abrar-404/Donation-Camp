@@ -37,7 +37,7 @@ const PieChartt = () => {
   console.log(totalDonationPercentages);
 
   const data = [
-    { name: 'Group A', value: 400 },
+    { name: 'Group A', value: 50 },
     { name: 'Group B', value: totalDonationPercentages },
   ];
 

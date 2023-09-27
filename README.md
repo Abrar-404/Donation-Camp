@@ -2,7 +2,7 @@
 
 - Repo link -
   https://github.com/programming-hero-web-course-4/b8a8-donation-campaign-Abrar-404
-- Live link -
+- Live link - https://donation-camp-kappa.vercel.app/
 
 ## QNA
 

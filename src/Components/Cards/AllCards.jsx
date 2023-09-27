@@ -8,14 +8,17 @@ const AllCards = ({ card }) => {
       <div className="m">
         <div className="card card-compact mx-auto md:max-w-[300px] shadow-xl">
           <figure>
-            <img src={image} />
+            <img className="w-full" src={image} />
           </figure>
           <div
             className="card-body"
             style={{ backgroundColor: allCardColor?.card_bg }}
           >
             <div>
-              <button className="px-2 rounded bg-white justify-start text-white">
+              <button
+                style={{ backgroundColor: allCardColor?.button_bg }}
+                className="px-2 rounded justify-start"
+              >
                 <span
                   className="font-semibold"
                   style={{ color: allCardColor?.text_color }}

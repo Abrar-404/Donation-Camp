@@ -1,7 +1,7 @@
 import swal from 'sweetalert';
 
 const CardDestination = ({ card }) => {
-  const { id, image, title, description, allCardColor } = card || {};
+  const { id, image, title, price, description, allCardColor } = card || {};
 
   const addTheDonationItems = () => {
     const addedCardsArray = [];
@@ -43,7 +43,7 @@ const CardDestination = ({ card }) => {
               }}
               className="btn text-white border-none ml-6 mt-[5px]"
             >
-              Donate{' '}
+              Donate ${price}
             </button>
           </div>
         </div>

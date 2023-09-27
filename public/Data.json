@@ -8,9 +8,9 @@
     "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
     "allCardColor": {
       "card_bg": "#0052ff26",
-      "button_bg": "#0052ff26",
-      "text_color": "#0052FF",
-      "button_background": "#2563eb"
+      "button_bg": "#bae6fd",
+      "text_color": "#2563eb",
+      "button_background": "#0284c7"
     },
 
     "button": {
@@ -31,8 +31,8 @@
     "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
     "allCardColor": {
       "card_bg": "#ff444a26",
-      "button_bg": "#ff444a38",
-      "text_color": "#FF444A",
+      "button_bg": "#f87171",
+      "text_color": "#b91c1c",
       "button_background": "#fb7185"
     },
 
@@ -52,10 +52,10 @@
     "category": "Used Clothing Drive",
     "description": "Clothes play a vital role in expressing our individuality and personality, allowing us to showcase our unique style and preferences. They serve as a powerful means of non-verbal communication, conveying messages about our social status, cultural identity, and personal values. Beyond aesthetics, clothes provide essential protection from the elements, safeguarding us from harsh weather conditions and environmental hazards. Moreover, they can boost our confidence and self-esteem, influencing how we perceive ourselves and how others perceive us. Ultimately, clothing choices can profoundly impact our daily lives, serving as a form of self-expression and protection while shaping our interactions with the world.",
     "allCardColor": {
-      "card_bg": "#79c23f26",
+      "card_bg": "#ecfccb",
       "button_bg": "#79c23f38",
-      "text_color": "#79C23F",
-      "button_background": "#79c23f"
+      "text_color": "#22c55e",
+      "button_background": "#bef264"
     },
 
     "button": {
@@ -117,10 +117,10 @@
     "category": "Used Clothing Drive",
     "description": "Clothes play a vital role in expressing our individuality and personality, allowing us to showcase our unique style and preferences. They serve as a powerful means of non-verbal communication, conveying messages about our social status, cultural identity, and personal values. Beyond aesthetics, clothes provide essential protection from the elements, safeguarding us from harsh weather conditions and environmental hazards. Moreover, they can boost our confidence and self-esteem, influencing how we perceive ourselves and how others perceive us. Ultimately, clothing choices can profoundly impact our daily lives, serving as a form of self-expression and protection while shaping our interactions with the world.",
     "allCardColor": {
-      "card_bg": "#79c23f26",
+      "card_bg": "#ecfccb",
       "button_bg": "#79c23f38",
-      "text_color": "#79C23F",
-      "button_background": "#79c23f"
+      "text_color": "#22c55e",
+      "button_background": "#bef264"
     },
 
     "button": {
@@ -148,8 +148,8 @@
     "price": 290,
     "allCardColor": {
       "card_bg": "#ff444a26",
-      "button_bg": "#ff444a38",
-      "text_color": "#FF444A",
+      "button_bg": "#f87171",
+      "text_color": "#b91c1c",
       "button_background": "#fb7185"
     }
   },
@@ -171,7 +171,7 @@
       "card_bg": "#0052ff26",
       "button_bg": "#0052ff26",
       "text_color": "#0052FF",
-      "button_background": "#2563eb"
+      "button_background": "#0284c7"
     }
   },
   {
@@ -192,7 +192,7 @@
       "card_bg": "#0052ff26",
       "button_bg": "#0052ff26",
       "text_color": "#0052FF",
-      "button_background": "#2563eb"
+      "button_background": "#0284c7"
     }
   },
   {
@@ -211,8 +211,8 @@
     "price": 290,
     "allCardColor": {
       "card_bg": "#ff444a26",
-      "button_bg": "#ff444a38",
-      "text_color": "#FF444A",
+      "button_bg": "#f87171",
+      "text_color": "#b91c1c",
       "button_background": "#fb7185"
     }
   },
@@ -224,10 +224,10 @@
     "category": "Used Clothing Drive",
     "description": "Clothes play a vital role in expressing our individuality and personality, allowing us to showcase our unique style and preferences. They serve as a powerful means of non-verbal communication, conveying messages about our social status, cultural identity, and personal values. Beyond aesthetics, clothes provide essential protection from the elements, safeguarding us from harsh weather conditions and environmental hazards. Moreover, they can boost our confidence and self-esteem, influencing how we perceive ourselves and how others perceive us. Ultimately, clothing choices can profoundly impact our daily lives, serving as a form of self-expression and protection while shaping our interactions with the world.",
     "allCardColor": {
-      "card_bg": "#79c23f26",
+      "card_bg": "#ecfccb",
       "button_bg": "#79c23f38",
-      "text_color": "#79C23F",
-      "button_background": "#79c23f"
+      "text_color": "#22c55e",
+      "button_background": "#bef264"
     },
 
     "button": {

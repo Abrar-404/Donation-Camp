@@ -6,7 +6,7 @@ const PieChartt = () => {
   const [myDonation, setMyDonation] = useState([]);
 
   useEffect(() => {
-    fetch('Data.json')
+    fetch('data.json')
       .then(res => res.json())
       .then(data => setTotalDonation(data));
   }, []);

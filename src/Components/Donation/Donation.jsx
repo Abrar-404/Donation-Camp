@@ -50,7 +50,9 @@ const Donation = () => {
           {donation.length > 4 && (
             <button
               onClick={() => setShowAll(!showAll)}
-              className="px-5 mt-10 bg-black text-white btn block mx-auto"
+              className={`px-5 mt-10 bg-black text-white btn block ${
+                showAll ? 'hidden' : ''
+              } mx-auto`}
             >
               {showAll ? ' ' : 'see more'}
             </button>

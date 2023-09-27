@@ -70,7 +70,7 @@ const PieChartt = () => {
   };
 
   return (
-    <div>
+    <div className="items-center">
       <div className="flex justify-center items-center mt-32">
         <PieChart width={400} height={400}>
           <Pie
@@ -92,8 +92,8 @@ const PieChartt = () => {
           </Pie>
         </PieChart>
       </div>
-      <div className="flex gap-x-48 justify-center items-center">
-        <div className="flex items-center gap-5">
+      <div className="grid gap-0 lg:right-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-2 justify-center items-center">
+        <div className="flex mx-auto justify-start md:justify-center lg:justify-center text-center w-full items-center gap-5">
           <p>My Donation</p>{' '}
           <button className=" bg-[#00C49F] py-2 px-16"></button>
         </div>

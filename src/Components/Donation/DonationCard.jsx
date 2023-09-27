@@ -1,31 +1,31 @@
 const DonationCard = ({ card }) => {
-  const { image, id, price, title, category, allCardColor } = card || {};
+  const { image, title, price, category, allCardColor, id } = card || {};
   return (
     <div>
       <div
+        className="flex gap-5 items-center rounded-lg"
         style={{ backgroundColor: allCardColor?.card_bg }}
-        className="flex gap-5 rounded-lg items-center"
       >
         <div>
-          <img className="h-full" src={image} alt="" />
+          <img className="" src={image} alt="" />
         </div>
         <div className="gap-5 text-start my-5">
           <button
-            className="btn text-white font-bold my-1"
+            className="py-1 px-1 my-1 rounded-lg text-white"
             style={{ backgroundColor: allCardColor?.button_background }}
           >
             {title}
           </button>
           <p className="text-xl my-1 font-semibold">{category}</p>
           <p
-            style={{ color: allCardColor?.button_background }}
-            className="font-semibold"
+            className="text-xl font-semibold"
+            style={{ color: allCardColor?.text_color }}
           >
             Price: ${price}
           </p>
           <button
+            className="btn px-1 my-1"
             style={{ backgroundColor: allCardColor?.button_background }}
-            className="btn text-white px-1 my-1"
           >
             View Details
           </button>

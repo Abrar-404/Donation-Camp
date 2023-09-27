@@ -2,8 +2,7 @@ import PieChartt from '../PieCharts/PieCharts';
 
 const Statistics = () => {
   return (
-    <div>
-      <h1>This is statistics</h1>
+    <div className="mx-auto">
       <PieChartt></PieChartt>
     </div>
   );

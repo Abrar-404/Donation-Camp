@@ -5,7 +5,7 @@ const AllCards = ({ card }) => {
 
   return (
     <Link to={`/cardDetails/${id}`}>
-      <div className="m">
+      <div className="">
         <div className="card card-compact mx-auto md:max-w-[300px] shadow-xl">
           <figure>
             <img className="w-full" src={image} />

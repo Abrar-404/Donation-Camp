@@ -43,18 +43,19 @@ const PieChartt = () => {
   console.log(data);
 
   const options = {
-    title: 'Popularity of Types of Pizza',
     sliceVisibilityThreshold: 0.2, // 20%
   };
 
   return (
-    <Chart
-      chartType="PieChart"
-      data={data}
-      options={options}
-      width={'100%'}
-      height={'400px'}
-    />
+    <div className="mt-7 mx-auto justify-center">
+      <Chart
+        chartType="PieChart"
+        data={data}
+        options={options}
+        width={'100%'}
+        height={'400px'}
+      />
+    </div>
   );
 };
 

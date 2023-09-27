@@ -25,7 +25,7 @@
   {
     "id": 2,
     "image": "https://i.ibb.co/5R8MzBD/Education.png",
-    "price": 200,
+    "price": 250,
     "category": "Good education",
     "title": "Education",
     "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
@@ -47,7 +47,7 @@
   {
     "id": 3,
     "image": "https://i.ibb.co/BtPTnNb/Clothing.png",
-    "price": 200,
+    "price": 300,
     "title": "Clothing",
     "category": "Used Clothing Drive",
     "description": "Clothes play a vital role in expressing our individuality and personality, allowing us to showcase our unique style and preferences. They serve as a powerful means of non-verbal communication, conveying messages about our social status, cultural identity, and personal values. Beyond aesthetics, clothes provide essential protection from the elements, safeguarding us from harsh weather conditions and environmental hazards. Moreover, they can boost our confidence and self-esteem, influencing how we perceive ourselves and how others perceive us. Ultimately, clothing choices can profoundly impact our daily lives, serving as a form of self-expression and protection while shaping our interactions with the world.",
@@ -101,7 +101,7 @@
     },
 
     "backgroundColor": "#E6E6E6",
-    "price": 200,
+    "price": 100,
     "allCardColor": {
       "card_bg": "#f8714726",
       "button_bg": "#f8714730",
@@ -112,7 +112,7 @@
   {
     "id": 6,
     "image": "https://i.ibb.co/BtPTnNb/Clothing.png",
-    "price": 200,
+    "price": 400,
     "title": "Clothing",
     "category": "Used Clothing Drive",
     "description": "Clothes play a vital role in expressing our individuality and personality, allowing us to showcase our unique style and preferences. They serve as a powerful means of non-verbal communication, conveying messages about our social status, cultural identity, and personal values. Beyond aesthetics, clothes provide essential protection from the elements, safeguarding us from harsh weather conditions and environmental hazards. Moreover, they can boost our confidence and self-esteem, influencing how we perceive ourselves and how others perceive us. Ultimately, clothing choices can profoundly impact our daily lives, serving as a form of self-expression and protection while shaping our interactions with the world.",
@@ -145,7 +145,7 @@
     },
 
     "backgroundColor": "#E6E6E6",
-    "price": 200,
+    "price": 300,
     "allCardColor": {
       "card_bg": "#ff444a26",
       "button_bg": "#f87171",
@@ -166,7 +166,7 @@
     },
 
     "backgroundColor": "#E6E6E6",
-    "price": 200,
+    "price": 400,
     "allCardColor": {
       "card_bg": "#0052ff26",
       "button_bg": "#0052ff26",
@@ -187,7 +187,7 @@
     },
 
     "backgroundColor": "#E6E6E6",
-    "price": 200,
+    "price": 400,
     "allCardColor": {
       "card_bg": "#0052ff26",
       "button_bg": "#0052ff26",
@@ -208,7 +208,7 @@
     },
 
     "backgroundColor": "#E6E6E6",
-    "price": 200,
+    "price": 350,
     "allCardColor": {
       "card_bg": "#ff444a26",
       "button_bg": "#f87171",
@@ -219,7 +219,7 @@
   {
     "id": 11,
     "image": "https://i.ibb.co/BtPTnNb/Clothing.png",
-    "price": 200,
+    "price": 190,
     "title": "Clothing",
     "category": "Used Clothing Drive",
     "description": "Clothes play a vital role in expressing our individuality and personality, allowing us to showcase our unique style and preferences. They serve as a powerful means of non-verbal communication, conveying messages about our social status, cultural identity, and personal values. Beyond aesthetics, clothes provide essential protection from the elements, safeguarding us from harsh weather conditions and environmental hazards. Moreover, they can boost our confidence and self-esteem, influencing how we perceive ourselves and how others perceive us. Ultimately, clothing choices can profoundly impact our daily lives, serving as a form of self-expression and protection while shaping our interactions with the world.",

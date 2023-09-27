@@ -26,7 +26,7 @@ const DonationCard = ({ card }) => {
             Price: ${price}
           </p>
           <button
-            className=" lg:px-2 lg:py-2 rounded-lg md:px-2 text-sm lg:text-xl md:text-base md:py-2 py-1 px-1 text-white lg:my-1 md:my-1"
+            className=" lg:px-2 lg:py-2 rounded-lg md:px-1 text-sm lg:text-xl md:text-base md:py-1 py-1 px-1 text-white lg:my-1 md:my-1"
             style={{ backgroundColor: allCardColor?.button_background }}
           >
             View Details

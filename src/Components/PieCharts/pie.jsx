@@ -1,44 +1,44 @@
 import { useEffect, useState } from 'react';
 import { Cell, Pie, PieChart } from 'recharts';
 
-const PieChartt = () => {
-  const [totalDonation, setTotalDonation] = useState([]);
-  const [myDonation, setMyDonation] = useState([]);
+const Charts = () => {
+  const [donationData, setDonationData] = useState([]);
+  const [peiCharts, setPeiCharts] = useState([]);
 
   useEffect(() => {
-    fetch('Data.json')
+    fetch('donations.json')
       .then(res => res.json())
-      .then(data => setTotalDonation(data));
+      .then(data => setDonationData(data));
   }, []);
 
   useEffect(() => {
     const DonationAmount = JSON.parse(localStorage.getItem('donation'));
-    setMyDonation(DonationAmount);
+    setPeiCharts(DonationAmount);
   }, []);
 
-  const TotalDonation = totalDonation?.map(items => parseInt(items.price));
-  const ItemsPrice = TotalDonation?.reduce(
+  const allData = donationData?.map(dates => parseInt(dates.price));
+  const datesPrice = allData?.reduce(
     (itemPrice, currentPrice) => itemPrice + currentPrice,
     0
   );
-  console.log(ItemsPrice);
+  console.log(datesPrice);
 
-  const donationAmount = myDonation?.map(dates => parseInt(dates.price));
-  const totalAmount = donationAmount?.reduce(
-    (preDonation, currentDonation) => preDonation + currentDonation,
+  const dataAmounts = peiCharts?.map(dates => parseInt(dates.price));
+  const amounts = dataAmounts?.reduce(
+    (itemPrice, currentPrice) => itemPrice + currentPrice,
     0
   );
-  console.log(totalAmount);
+  console.log(amounts);
 
-  const totalDonationPercentAmount = parseFloat(
-    (parseInt(totalAmount) / ItemsPrice) * 100
+  const totalDonationPercentString = parseFloat(
+    (parseInt(amounts) / datesPrice) * 100
   ).toFixed(2);
-  const totalDonationPercentages = parseFloat(totalDonationPercentAmount);
-  console.log(totalDonationPercentages);
+  const totalDonationPercent = parseFloat(totalDonationPercentString);
+  console.log(totalDonationPercent);
 
   const data = [
     { name: 'Group A', value: 400 },
-    { name: 'Group B', value: totalDonationPercentages },
+    { name: 'Group B', value: totalDonationPercent },
   ];
 
   const COLORS = ['#FF444A', '#00C49F'];
@@ -93,17 +93,13 @@ const PieChartt = () => {
         </PieChart>
       </div>
       <div className="flex gap-x-48 justify-center items-center">
-        <div className="flex items-center gap-5">
-          <p>My Donation</p>{' '}
-          <button className=" bg-[#00C49F] py-2 px-16"></button>
-        </div>
-        <div className="flex items-center gap-5">
-          <p>Total Donation</p>{' '}
-          <button className=" bg-[#FF444A] py-2 px-16"></button>
-        </div>
+        <p>
+          Your Donation <span className=" divide-y-8 bg-red-500"></span>
+        </p>
+        <p>Total Donation</p> <button className="btn py-2 px-16"></button>
       </div>
     </div>
   );
 };
 
-export default PieChartt;
+export default Charts;

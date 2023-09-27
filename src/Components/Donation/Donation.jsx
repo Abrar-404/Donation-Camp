@@ -23,7 +23,7 @@ const Donation = () => {
 
       setDonationTotal(totalDonation);
     } else {
-      setNoDataFound('No data found');
+      setNoDataFound('No donation yet');
     }
   }, []);
 
